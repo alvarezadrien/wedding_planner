@@ -1,8 +1,16 @@
-# Instructions de lancement
-
-## Lancement du frontend
-
-Dans le dossier `frontend`, lance la commande suivante pour démarrer l’application React :
-
-```bash
-npm start
+wedding_planner/
+│
+├── backend/ # Serveur Node.js/Express
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── .env # ⚠️ À ne pas versionner
+│ └── server.js
+│
+├── frontend/ # Application React
+│ ├── public/
+│ ├── src/
+│ ├── .env # ⚠️ À ne pas versionner
+│ └── package.json
+│
+└── README.md
